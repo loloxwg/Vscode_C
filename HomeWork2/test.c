@@ -19,7 +19,7 @@ int main() //主函数
 {
 	int i, x, flag;
 	Queue_Type p;
-	while (1)
+	while (1)//实现连续的输入
 	{
 		InitQueue(&p);
 		printf("请输入缓存数据:\n");
