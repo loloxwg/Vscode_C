@@ -59,10 +59,6 @@ void InQueue(Queue_Type *p, int m, int x)
 }
 
 
-//判断队满条件头指针等于等于尾指针位置对5取余数加1
-
-//如果头指针等于尾指针则
-//标志位变为0
 int OutQueue(Queue_Type *p, int m)
 {
 	int y;
