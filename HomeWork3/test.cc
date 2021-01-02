@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>	
 typedef int Status;
-#define	OK			1
+#define	OK			1//宏定义，就是定义ok=1，当后面调用ok的时候,就相当于1；
 #define	ERROR		0	
 #define	OVERFLOW	-2
 typedef int LElemType_L;
 typedef struct LNode
 {
-	LElemType_L data;
+	LElemType_L data;//数据元素的类型定义
 	struct LNode* next;
 }LNode;
 typedef LNode* LinkList;
